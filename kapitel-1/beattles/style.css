@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(35, 18, 112);
+    background-image: url(./bilder/garfield-dancing-to-happy-garfield.gif);
+}
+h1 {   
+    color: royalblue;
+    font-size: 55px;
+    font-family: "Sankofa Display", sans-serif;
+
+}
+h2{
+    color: rgb(42, 149, 216);
+    font-size: 45px;
+    font-family: "Sankofa Display", sans-serif;
+
+}
+p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "Sankofa Display", sans-serif;
+
+}
+a {
+    color: rgb(12, 178, 178);
+    font-family: "Sankofa Display", sans-serif;
+}

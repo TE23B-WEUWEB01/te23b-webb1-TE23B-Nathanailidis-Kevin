@@ -1,0 +1,29 @@
+body{
+background-color: rgb(185, 185, 162);
+}
+table{
+background-color: beige;
+width: 1000px;
+margin: auto;
+}
+caption{
+background-color: rgb(36, 43, 165);
+padding: 10px;
+font-size: 50px;
+background-image: url(./bilder/cloth.jpg);
+font-weight: bold;
+}
+tr{
+
+}
+th{
+padding: 15px;
+font-size: 25px;
+}
+td{
+padding: 10px;
+}
+img{
+width: 150px;
+
+}

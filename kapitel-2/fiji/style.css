@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-image: url("./bilder/chor-tsang-07mSKrzKiRw-unsplash\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 85px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 0 black;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    color: white;
+    text-shadow: 3px 3px 0 black;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    margin-top: 200px;
+    margin-left: 1050px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: steelblue;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,19 @@
+body{
+    background-image: url("./bilder/wallpaperflare.com_wallpaper.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+color: white;
+font-size: 60px;
+margin-left: 450px;
+}
+p{
+    color: white;
+    margin-left: 400px;
+}
+img{
+    width: 250px;
+    margin-left: 500px;
+}

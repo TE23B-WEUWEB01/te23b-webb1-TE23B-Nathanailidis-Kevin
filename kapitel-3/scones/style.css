@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidans styling */
+
+body{
+    background-image: url("./bilder/erol-ahmed-AmzKuEnr1VY-unsplash.jpg");
+}
+
+/* Boxens utseende */
+
+div{
+    width: 600px;
+    margin: auto;
+    background-color:rgba(203, 201, 177, 0.934);
+    padding: 40px;
+    border-radius: 20px;
+    border: 8px solid #9a7f5d;
+    margin-top: 45px;
+    color: #9a7f5d;
+    font-family: "Playpen Sans", cursive;
+}
+
+/* Rubrikernas utseende */
+
+h1{
+margin-bottom: 20px;
+font-size: 50px;
+}
+
+/* Innehålets utseende */
+
+img{   
+    width: 200px;
+}
+h2{
+margin-bottom: 15px;
+}
+p{
+margin-bottom: 10px;
+}
+ul{
+   margin-bottom: 10px;
+   padding-left: 20px;
+   list-style-type: lower-greek;
+}
+li{
+margin-bottom: 10px;
+}

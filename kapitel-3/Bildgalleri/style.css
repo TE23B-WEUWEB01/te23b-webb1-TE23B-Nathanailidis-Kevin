@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&display=swap');
+
+/* Sidans layout */
+body{
+background-image: url("./bilder/FullMoon2010.jpg");
+}
+.kontainer{
+width: 800px;
+padding: 40px;
+}
+
+.box{
+    background-color: #000;
+    padding: 50px;
+}
+
+/* Sidand innehåll */
+
+h1{
+    font-family: "Orbitron", sans-serif;  
+    color: white;
+}
+h2{
+    font-family: "Oxanium", sans-serif;
+    color: white;
+}
+img{
+    width: 100%;
+}
+p{
+    font-family: "Oxanium", sans-serif;
+    color: white;
+}

@@ -24,8 +24,17 @@ background-color: #9264c7;
     background-color: #e3dbf1;
 }
 .box{
-background-color: #595a5a;
+background-color: #5a5a5a;
 color: white;
+padding: 20px;
+margin-bottom: 20px;
+display: flex;
+gap: 20px;
+border-radius: 10px;
+}
+.kolumner{
+    display: flex;
+    gap: 20px;
 }
 
 /* Rubrikerna */
@@ -33,14 +42,17 @@ h1{
     font-family: "Faster One", system-ui;
     font-size: 60px;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 h2{
-
+margin-bottom: 20px;
 }
 
 /* Sidans innehåll */
 img{
     width: 30%;
+    border-radius: 10px;
+    border: 5p solid #fff;
 }
 p{
 

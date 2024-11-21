@@ -1,0 +1,113 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hemsidans bas */
+body{
+background-color: #0b042f;
+font-family: "Outfit", sans-serif;
+}
+h1{
+color: white;
+text-align: center;
+margin-top: 50px;
+}
+
+.text{
+    color: white;
+    padding-left: 430px;
+    padding-top: 30px ;
+}
+
+/* Innehållets utseende */
+.fb1{
+    margin-left: 25%;
+}
+.bilbgi{
+    margin-left: 35%;
+}  
+.spelbg{
+    margin-left: 35%;
+}
+
+.allt{
+display: flex;
+gap: 20px;
+flex-direction: row;
+color: white;
+width: 750px;
+margin: auto;
+margin-top: 50px;
+padding-top: 40x;
+font-size: 14px;
+}
+
+.f1{
+width: 300px;
+background-color: #05335c;
+padding-left: 20px;
+padding-top: 20px;
+border-radius: 50px;
+padding-bottom: 20px;
+}
+.bilar{
+width: 300px;
+background-color: #05335c;
+padding-top: 20px;
+border-radius: 50px;
+padding-left: 20px;
+}
+.spel{
+width: 300px;
+background-color: #05335c;
+padding-top: 20px;
+border-radius: 50px;
+padding-left: 20px;
+}
+img{
+width: 90%;
+border-radius: 10px;
+}
+
+/* Listan */
+
+.listan{
+color: white;  
+margin-bottom: 40px;
+padding-top : 20px;
+padding-left: 425px;
+}
+
+.h2listan{
+padding-top: 10px;
+padding-left: 70px;
+padding-bottom: 10px;
+}
+
+table {
+   font-family: "Outfit", sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td, th {
+    border: 1px solid #05335c;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  
+  a{
+    color: #240aa8;
+  }

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #bb2d2d;
+}
+
+.kontainer{
+    background-color: #bb2d2d;
+    width: 900px;
+    padding: 15px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Menyns utseende */
+.kontainer ul{
+    font-family: "Sour Gummy", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0 19px;
+}
+
+ul li{
+    
+}
+
+.kontainer ul a{
+    text-decoration: none;
+    color: white;
+    background-color: #401f1f;
+    padding: 7px;
+    border-radius: 3px;
+    width: 155px;
+    display: inline-block;
+    box-shadow: 5px 2px 0 #161F1B;
+    text-align: center;
+}
+
+.kontainer ul a:hover{
+    background-color: #940d0d;
+}
+.kontainer ul a.aktiv{
+    background-color: #610707;
+}
+
+/* Innehållets utseende */
+h1{
+    font-family: "Noto Sans", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.kontainer p{
+color: #fff;
+margin: 15px auto;
+background-color: #451008;
+text-align: center;
+border-radius: 4px;
+width: 50%;
+}
+
+.kontainer figure{
+    width: 60%;
+    background-color: #fff;
+    padding: 25px;
+    margin: 30px auto;
+}
+
+.kontainer figure img{
+    width: 100%;
+}
+
+.kontainer figure .snogubbe{
+
+}
+
+.kontainer figure figcaption{
+ text-align: center;
+}

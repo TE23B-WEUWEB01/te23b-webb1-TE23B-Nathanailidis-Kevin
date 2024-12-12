@@ -94,3 +94,132 @@ width: 50%;
 .kontainer figure figcaption{
  text-align: center;
 }
+
+/* Animationer */
+
+@keyframes fall {
+    0% {
+        transform: translateY(-10%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(110%);
+        opacity: 0;
+    }
+}
+
+.snowflake1 {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    font-size: 2rem;
+    animation: fall 2s linear infinite;
+    color: #fff;
+}
+.snowflake2 {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    font-size: 2rem;
+    animation: fall 2s linear infinite;
+    color: #fff;
+}
+.snowflake3 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    font-size: 2rem;
+    animation: fall 2s linear infinite;
+    color: #fff;
+}
+.snowflake4 {
+    position: absolute;
+    top: 0;
+    left: 75%;
+    font-size: 2rem;
+    animation: fall 2s linear infinite;
+    color: #fff;
+}
+.snowflake5 {
+    position: absolute;
+    top: 0;
+    left: 85%;
+    font-size: 2rem;
+    animation: fall 2s linear infinite;
+    color: #fff;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+ul a:hover {
+    color: #ffd700; /* Gul som en stjärna */
+}
+
+.light1 {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+    animation: blink 1s infinite alternate;
+}
+.light2 {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+    animation: blink 1s infinite alternate;
+    margin-left: 150px;
+}
+.light3 {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+    animation: blink 1s infinite alternate;
+    margin-left: 155px;
+}
+.light4 {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+    animation: blink 1s infinite alternate;
+    margin-left: 145px
+}
+.light5 {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+    animation: blink 1s infinite alternate;
+    margin-left: 150px;
+}
+.light6 {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+    animation: blink 1s infinite alternate;
+    margin-left: 145px;
+}
+
+@keyframes blink {
+    0% { opacity: 0.5; }
+    100% { opacity: 1; }
+}

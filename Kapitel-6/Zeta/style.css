@@ -12,7 +12,10 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 /* Sid Layout */
 body{
+    background-image: url(./bilder/image-133.jpg);
+    background-repeat: no-repeat;
     background-color: #F3F0DD;
+    background-size: contain;
 }
 .kontainer{
     width: 1000px;
@@ -24,34 +27,68 @@ body{
 display: flex;
 justify-content: space-between;
 align-items: center;
-gap: 1;
+gap: 120;
+width: 100%;
+font-size: 15px;
+padding: 20px 50px;
+font-family: sans-serif;
 }
 .kontainer .meny a{
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 .kontainer .meny .Sitelogga{
-    width: 15%;
+    width: 10%;
 }
 
 /* Innehåll */
 .sida{
-
+    background-color: #f9f8f1;
+    padding-top: 15px;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+ 
+}
+.sida h2{ 
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .sida .info{
-
+    
+}
+.info{
+    margin: auto;
+    text-align: center;
+    width: 58%;
+    padding-top: 15px;
+    padding-bottom: 25px;   
 }
 
 .sida .rutor{
-    display: flex;
-    gap: 30px;
+    display: grid;
+    gap: 20px;
     background-color: #F9F8F1;
-    padding-left: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .sida .rutor .produkt{
-    
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.sida .rutor .produkt p{
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 .sida .rutor .produkt .bild{
 width: 100%;
+cursor: pointer;
 }
